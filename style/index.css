@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#images {
+    margin: 50px;
+}
+
+#container h1 {
+    color: white;
+    padding: 10px;
+    background: linear-gradient(white, blue, red, blue, white);
+}
+
+#images img {
+    width: 150px;
+    box-shadow: 5px 10px 10px black;
+}
+
+#images img:nth-child(1) {
+    transform: rotate(30deg) translate(50px, 50px);
+}
+
+#images img:nth-child(2) {
+    transform: rotate(20deg) translateY(-20px);
+}
+
+#images img:nth-child(3) {
+    transform: rotate(-30deg) translate(-50px, 50px);
+}
+
+#images img:nth-child(4) {
+    transform: rotate(-20deg) translate(-340px, 50px)
+}
